@@ -3,7 +3,7 @@
 ####################################################################
 ##  REALIZA LA INSTALACION DE UN PAQUETE EN LINUX
 
-- hosts: ntpocrh8005
+- hosts: localhost
 
   vars:
 
