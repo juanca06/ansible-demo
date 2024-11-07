@@ -11,6 +11,6 @@
 
 # CAMBIA EL ESTADO DEL TICKETID A EN CURSO
   - name: Cambia el estado del Ticket a En Curso
-    command: pwd
+    command: ls -lrt
     register: comando
   - debug: var=comando
