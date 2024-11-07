@@ -1,0 +1,9 @@
+---
+- hosts: localhost  
+  gather_facts: no
+  tasks:
+    - name: Hacer ping a los hosts
+      ansible.builtin.ping:
+      register: result_ping
+
+    - debug: var=result_ping
